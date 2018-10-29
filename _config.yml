@@ -13,21 +13,37 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Frasco: Jekyll Starter Project"
-email: your-email@domain.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Bourbon/Neat/Bitters, Browserify, imagemin, Browsersync, PostCSS etc.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ixkaito
-github_username:  ixkaito
+#
+# loosely based on squarspace avenue theme
+# https://avenue-demo.squarespace.com/
+#
+title: "Johnny Whichard"
+subtitle: "Product Manager / Operations"
+email: johnnyvwhichard@alumni.nd.edu
+description: >-
+  Johnny Whichard's portfolio
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://johnnywhichard.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-# theme: minima
+# theme: arthur
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+header_pages:
+  - timeline.md
+  - about.md
+  - contact.md
+
+# instagram_username: johnnywhichard
+# twitter_username: johnnywhichard
+# vimeo_username: johnnywhichard
+imdb_username: nm5408552
+linkedin_username: johnny-whichard-b8390438
+youtube_channel_id: UCakUiYjaUvwHzHnOV8XL3Hg
+phone_number: (949) 292-9765
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

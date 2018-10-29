@@ -1,0 +1,11 @@
+---
+slug: ashes
+layout: post
+title:  "Out of the Ashes"
+role:  "Producer - Short Film"
+date:   2018-09-07 00:56:34 +0900
+categories: portfolio
+youtube_url:
+---
+
+

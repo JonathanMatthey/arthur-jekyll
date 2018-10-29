@@ -1,0 +1,11 @@
+---
+slug: lexus
+layout: post
+title:  "Lexus Digital"
+role:  "Technical Account Manager"
+date:   2018-10-06 00:56:34 +0900
+categories: portfolio
+youtube_url:
+---
+
+

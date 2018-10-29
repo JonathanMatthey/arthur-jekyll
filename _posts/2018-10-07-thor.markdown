@@ -1,0 +1,10 @@
+---
+slug: thor
+layout: post
+title:  "Thor: Ragnarok Theatrical"
+role:  "Technical Account Manager"
+date:   2018-10-07 00:56:34 +0900
+categories: portfolio
+youtube_url:
+---
+

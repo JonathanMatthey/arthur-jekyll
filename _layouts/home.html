@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<div class="home">
+<section id="page" role="main" data-content-field="main-content">
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -10,25 +11,26 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+    <div id="projectThumbs">
+      <div class="wrapper">
+
+        {%- for post in site.posts -%}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <!-- {{ post.date | date: date_format }} -->
+          <a class="project" href="{{ post.url | relative_url }}">
+            <div>
+              <div class="project-image">
+                <div class="intrinsic">
+                  <div class="content-fill" style="overflow: hidden;">
+                    <img style="" src="/assets/images/thumbs/{{ post.slug }}.jpg">
+                  </div>
+                </div>
+              </div>
+              <div class="project-title">{{ post.title | escape }}</div>
+            </div>
           </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        {%- endfor -%}
+      </div>
+    </div>
   {%- endif -%}
-
-</div>
+</section>

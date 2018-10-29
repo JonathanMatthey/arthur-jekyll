@@ -1,0 +1,11 @@
+---
+slug: fuisz
+layout: post
+title:  "Fuisz Studio Demo"
+role:  "Producer - Fuisz Video"
+date:   2018-10-04 00:56:34 +0900
+categories: portfolio
+youtube_url:
+---
+
+
