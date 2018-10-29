@@ -5,7 +5,8 @@ title:  "Lexus Digital"
 role:  "Technical Account Manager"
 date:   2018-10-06 00:56:34 +0900
 categories: portfolio
-youtube_url:
+youtube_video_id: lfcFUDdC30Q
 ---
 
+At Innovid, one of my most challenging tasks was managing Lexus’ geographically targeted digital video ad campaigns. One of the most demanding clients in the industry, Lexus kept me on my toes with constantly updating creatives and a double-publishing cycle to sync their digital efforts with their Television marketing strategy.
 

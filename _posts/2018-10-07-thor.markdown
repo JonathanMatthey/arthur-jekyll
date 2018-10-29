@@ -5,6 +5,8 @@ title:  "Thor: Ragnarok Theatrical"
 role:  "Technical Account Manager"
 date:   2018-10-07 00:56:34 +0900
 categories: portfolio
-youtube_url:
+youtube_video_id: ue80QwXMRHg
 ---
+
+At Innovid, I had the privilege of serving Disney’s Theatrical digital video ad campaigns: including Marvel’s Thor: Ragnarok! The campaign garnered hundreds of millions of impressions across dozens of publishers.
 

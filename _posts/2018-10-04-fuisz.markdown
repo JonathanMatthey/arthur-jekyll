@@ -5,7 +5,8 @@ title:  "Fuisz Studio Demo"
 role:  "Producer - Fuisz Video"
 date:   2018-10-04 00:56:34 +0900
 categories: portfolio
-youtube_url:
+youtube_video_id: BJC26tdEOUM
 ---
 
+While working for Fuisz Video, my team produced dozens of brand-specific demos across countless verticals. I was also fortunate enough to participate in the development of our cloud-based interactive video creation platform. In particular, I helped design our computer vision algorithm user interface for tagging items/people inside of video content.
 

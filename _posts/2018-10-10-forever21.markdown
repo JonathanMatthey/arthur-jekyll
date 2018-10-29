@@ -5,6 +5,15 @@ title:  "FOREVER 21 CONCEPT"
 role:  "Product Manager - Octi"
 date:   2018-10-10 00:56:34 +0900
 categories: portfolio
-youtube_url: https://www.youtube.com/watch?v=p_nLQhnbq0c
+youtube_video_id: p_nLQhnbq0c
 ---
-At Octi, I was frequently tasked with creating videos of products that didn’t exist yet. At Octi, we created a video platform that allows users to “greenscreen” themselves out of their real-world environment in real time…all powered by a modern cellphone. I produced this video and shot it at Forever 21 on Hollywood Blvd. Our company built the technological infrastructure to support this type of branded consumer experience.
+
+<p>
+At Octi, I was frequently tasked with creating videos of products that didn’t exist yet.
+</p>
+<p>
+We created a video platform that allows users to “greenscreen” themselves out of their real-world environment in real time…all powered by a modern cellphone.
+</p>
+<p>
+I produced this video and shot it at Forever 21 on Hollywood Blvd. Our company built the technological infrastructure to support this type of branded consumer experience.
+</p>

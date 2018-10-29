@@ -5,7 +5,13 @@ title:  "Out of the Ashes"
 role:  "Producer - Short Film"
 date:   2018-09-07 00:56:34 +0900
 categories: portfolio
-youtube_url:
+youtube_video_id: mFi47nQ28UM
 ---
+
+<p>A film by Ana Christian, Patrick Nguyen and Johnny Whichard</p><p>On August 3rd, 2012, the people of Mannford, Oklahoma experienced a fire-storm that destroyed over 300 homes. Months later, most of the families have yet to find a home.
+</p>
+<p>
+This film was made as part of the University of Notre Dame Documentary Film Production class.</p>
+<p><a href="http://www.newson6.com/story/19607665/film-students-to-document-wildfire-recovery-mannford-newspaper-reports">Learn More</a></p>
 
 

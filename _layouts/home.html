@@ -10,27 +10,6 @@ layout: default
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <div id="projectThumbs">
-      <div class="wrapper">
+  {%- include project-thumbs.html -%}
 
-        {%- for post in site.posts -%}
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <!-- {{ post.date | date: date_format }} -->
-          <a class="project" href="{{ post.url | relative_url }}">
-            <div>
-              <div class="project-image">
-                <div class="intrinsic">
-                  <div class="content-fill" style="overflow: hidden;">
-                    <img style="" src="/assets/images/thumbs/{{ post.slug }}.jpg">
-                  </div>
-                </div>
-              </div>
-              <div class="project-title">{{ post.title | escape }}</div>
-            </div>
-          </a>
-        {%- endfor -%}
-      </div>
-    </div>
-  {%- endif -%}
 </section>
