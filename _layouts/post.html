@@ -34,8 +34,16 @@ layout: default
     </div>
     <div class="project-controls">
       <div>
-        <!-- <div id="projectNav"><span class="prev-project disabled">prev</span> / <span class="next-project">next</span></div> -->
-        <a href="{{site.baseurl}}">Back to Portfolio</a>
+        <div id="projectNav">
+          {% if page.next.url %}
+            <a class="prev-project" href="{{page.next.url}}">prev</a>
+          {% endif %}
+          {% if page.previous.url %}
+            {% if page.next.url %}&nbsp;/&nbsp;{% endif %}
+            <a class="next-project"  href="{{page.previous.url}}">next</a>
+          {% endif %}
+        </div>
+        <!-- <a href="{{site.baseurl}}">Back to Portfolio</a> -->
       </div>
     </div>
   </div>

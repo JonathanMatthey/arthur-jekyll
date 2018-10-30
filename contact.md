@@ -11,9 +11,7 @@ permalink: /contact/
         <div class="sqs-block-content" id="yui_3_17_2_1_1540853799111_94">
           <div class="image-block-outer-wrapper layout-caption-below design-layout-inline   " id="yui_3_17_2_1_1540853799111_93">
             <div class="intrinsic" style="max-width:1498.0px;" id="yui_3_17_2_1_1540853799111_92">
-              <div style="padding-bottom: 58.4106%; overflow: hidden;" class="image-block-wrapper   has-aspect-ratio" data-description="" id="yui_3_17_2_1_1540853799111_91">
-                <noscript><img src="http://johnnywhichard.com/shovel.gif"  alt="IMG_1385.JPG"  /></noscript>
-                <img class="thumb-image loaded" data-src="http://johnnywhichard.com/shovel.gif" data-image="http://johnnywhichard.com/shovel.gif" data-image-dimensions="1498x832" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5a8cfb0224a694a13a58fd5e" data-type="image" data-position-mode="standard" style="left: -2.58358%; top: 0%; width: 105.167%; height: 100%; position: absolute;" alt="IMG_1385.JPG" src="http://johnnywhichard.com/shovel.gif?format=2500w" data-image-resolution="2500w">
+              <div style="padding-bottom: 58.4106%; overflow: hidden;background-image:url(/assets/images/workstation.jpg); background-size:cover;" class="image-block-wrapper has-aspect-ratio">
               </div>
             </div>
           </div>
@@ -27,6 +25,11 @@ permalink: /contact/
           <h4>Johnny Whichard</h4>
           <p>Product Manager and Operations at Octi</p>
           <p>
+            {%- if site.phone_number -%}
+              <a target="_blank" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a>
+            {%- endif -%}
+          </p>
+          <p>
             {%- if site.linkedin_username -%}
               <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">LINKEDIN</a>
             {%- endif -%}
@@ -34,11 +37,6 @@ permalink: /contact/
           <p>
             {%- if site.email -%}
               <a target="_blank" href="mailto:{{ site.email }}">EMAIL</a>
-            {%- endif -%}
-          </p>
-          <p>
-            {%- if site.phone_number -%}
-              <a target="_blank" href="tel:{{ site.phone_number }}">{{ site.phone_number }}</a>
             {%- endif -%}
           </p>
         </div>

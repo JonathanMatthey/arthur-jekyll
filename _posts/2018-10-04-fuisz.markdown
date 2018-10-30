@@ -8,5 +8,10 @@ categories: portfolio
 youtube_video_id: BJC26tdEOUM
 ---
 
-While working for Fuisz Video, my team produced dozens of brand-specific demos across countless verticals. I was also fortunate enough to participate in the development of our cloud-based interactive video creation platform. In particular, I helped design our computer vision algorithm user interface for tagging items/people inside of video content.
-
+<p>
+While working for Fuisz Video, my team produced dozens of brand-specific demos across countless verticals.
+</p>
+<p>I was also fortunate enough to participate in the development of our cloud-based interactive video creation platform.
+</p>
+<p>In particular, I helped design our computer vision algorithm user interface for tagging items/people inside of video content.
+</p>

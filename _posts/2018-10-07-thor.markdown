@@ -8,5 +8,8 @@ categories: portfolio
 youtube_video_id: ue80QwXMRHg
 ---
 
-At Innovid, I had the privilege of serving Disney’s Theatrical digital video ad campaigns: including Marvel’s Thor: Ragnarok! The campaign garnered hundreds of millions of impressions across dozens of publishers.
-
+<p>
+At Innovid, I had the privilege of serving Disney’s Theatrical digital video ad campaigns: including Marvel’s Thor: Ragnarok!
+</p>
+<p>The campaign garnered hundreds of millions of impressions across dozens of publishers.
+</p>

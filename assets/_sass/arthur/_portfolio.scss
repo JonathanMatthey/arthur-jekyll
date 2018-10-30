@@ -17901,11 +17901,11 @@ nav ol {
 }
 
 #projectThumbs .project:hover .project-image .intrinsic {
-  opacity: .5
+  opacity: .1
 }
 
 #projectThumbs .project .project-image {
-  background: #ff8f8f;
+  background: #000;
   margin-bottom: 1%
 }
 
@@ -18029,7 +18029,7 @@ nav ol {
 
 #projectPages .project.active-project {
   display: block;
-  margin-bottom: 32px
+  margin-bottom: 12px
 }
 
 #projectPages .project.active-project .image-list img {

@@ -33,7 +33,6 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - timeline.md
   - about.md
   - contact.md
 
