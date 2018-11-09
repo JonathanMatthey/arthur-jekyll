@@ -1,7 +1,7 @@
 {
-  "name": "frasco",
-  "version": "0.8.4",
-  "description": "Jekyll starter project including full setup for gulp, Sass, Autoprefixer, PostCSS, webpack, imagemin, Browsersync etc.",
+  "name": "arthur",
+  "version": "0.1",
+  "description": "minimal portfolio jekyll theme",
   "main": "gulpfile.js",
   "scripts": {
     "preinstall": "bundle install --path vendor/bundle",
@@ -18,38 +18,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ixkaito/frasco.git"
+    "url": "https://github.com/JonathanMatthey/arthur-jekyll.git"
   },
   "keywords": [
-    "Autoprefixer",
-    "Browsersync",
-    "gulp",
-    "imagemin",
-    "Jekyll",
-    "PostCSS",
-    "Sass",
-    "Webpack"
   ],
-  "author": "Kite",
+  "author": "Jonathan Matthey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ixkaito/frasco/issues"
   },
-  "homepage": "https://ixkaito.github.io/frasco",
+  "homepage": "https://johnnywhichard.com",
   "devDependencies": {
     "autoprefixer": "^9.0.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.6",
-    "eslint-config-google": "^0.9.1",
+    "eslint-config-google": "*",
     "eslint-loader": "^2.1.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.1",
+    "gulp-babel": "*",
     "gulp-eslint": "^5.0.0",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "*",
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.0",
-    "gulp-postcss": "^7.0.1",
+    "gulp-postcss": "*",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0",
